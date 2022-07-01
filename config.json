@@ -1,0 +1,13 @@
+{
+    "discord": {
+        "token": "TOKEN",
+        "channel": "CHANNEL_ID",
+        "refreshRate": 60
+    },
+    "embeds": {
+        "errorColor": "#ff0000",
+        "gameColor": "#00FF00"
+    }
+
+}
+
