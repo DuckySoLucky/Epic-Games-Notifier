@@ -35,7 +35,7 @@ function checkGames(client) {
                                     .setColor(config.embeds.errorColor)
                                     .setAuthor({ name: 'An Error has occured!'})
                                     .setDescription(`${err}`)
-                                    .setFooter({ text: config.embed, iconURL: 'https://cdn.discordapp.com/avatars/486155512568741900/31cabcf3c42823f8d8266fd22babb862.png?size=4096' });
+                                    .setFooter({ text: '© Made by DuckySoLucky', iconURL: 'https://cdn.discordapp.com/avatars/486155512568741900/31cabcf3c42823f8d8266fd22babb862.png?size=4096' });
                                 client.channels.cache.get(config.discord.channel).send({embeds: [ errorEmbed ]})
                                 return;
                             }
